@@ -1,6 +1,14 @@
 {
   "name": "formatting-and-linting",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "license": "CC-BY-NC-ND-4.0",
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "prettier": "^2.3.1"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --write src",
+    "format:check": "prettier --check src"
+  }
 }
