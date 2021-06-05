@@ -11,17 +11,10 @@
  */
 function countOccurrences(strArr, targetString) {
         let count = 0
-{{{
-       ; 
-        {{
-{       ;
-{{
-     ;   {{
-{{
-{               {{{{{{{{for (
+for (
   
             let str of strArr
-                            ){if(targetString===str){count++}}}}}}}}};};}}}};}}}}}}}}}return count}
+                            ){if(targetString===str){count++}}return count}
 
 console.log(countOccurrences(["na", "na", "na", "na", "BATMAN"], "na"), 4);
 console.log(countOccurrences(["na", "na", "na", "na", "BATMAN"], "BATMAN"), 1);
