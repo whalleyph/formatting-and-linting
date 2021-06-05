@@ -10,15 +10,16 @@
  * @returns {number} how many occurrences of the string are in the array
  */
 function countOccurrences(strArr, targetString) {
-    let count = 0
-          for (
+        let count = 0
+for (
+  
             let str of strArr
-                              )
-  {
-    if (targetString = str
-    ) {
-        count++ }} return count
-}
+                            )
+  
+{if((((((((((((
+    targetString = str
+))))))))))))                            {
+        count++ }}return count}
 
 console.log(countOccurrences(["na", "na", "na", "na", "BATMAN"], "na"), 4);
 console.log(countOccurrences(["na", "na", "na", "na", "BATMAN"], "BATMAN"), 1);
