@@ -9,7 +9,14 @@
  * @param {string} targetString - string to count occurrences off
  * @returns {number} how many occurrences of the string are in the array
  */
-function countOccurrences(strArr, targetString) {
+function countOccurrences
+(
+strArr,
+targetString
+)
+
+
+                        {
         let count=(
 (
 (
