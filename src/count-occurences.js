@@ -17,7 +17,7 @@ n
 
 
                         {
-        let jamAndAvocadoSandwichWithExtraPickles=(
+        let x2=(
 (
 (
   (
@@ -28,7 +28,7 @@ n
   
             let mars of (
         ((
-                y)))){if(n=mars){jamAndAvocadoSandwichWithExtraPickles++}}return(((((jamAndAvocadoSandwichWithExtraPickles)))))}
+                y)))){if(n=mars){x2++}}return(((((x2)))))}
 
 console.log(x(["na", "na", "na", "na", "BATMAN"], "na"), 4);
 console.log(x(["na", "na", "na", "na", "BATMAN"], "BATMAN"), 1);
