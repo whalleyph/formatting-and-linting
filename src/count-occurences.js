@@ -5,19 +5,19 @@
  * Partial matches are not counted.
  * The count should be case sensitive.
  * 
- * @param {string[]} strArr - array of strings to check
- * @param {string} targetString - string to count occurrences off
+ * @param {string[]} y - array of strings to check
+ * @param {string} n - string to count occurrences off
  * @returns {number} how many occurrences of the string are in the array
  */
-function countOccurrences
+function x
 (
-strArr,
-targetString
+y,
+n
 )
 
 
                         {
-        let count=(
+        let jamAndAvocadoSandwichWithExtraPickles=(
 (
 (
   (
@@ -26,11 +26,11 @@ targetString
                 )
         for (
   
-            let str of (
+            let mars of (
         ((
-                strArr)))){if(targetString=str){count++}}return(((((count)))))}
+                y)))){if(n=mars){jamAndAvocadoSandwichWithExtraPickles++}}return(((((jamAndAvocadoSandwichWithExtraPickles)))))}
 
-console.log(countOccurrences(["na", "na", "na", "na", "BATMAN"], "na"), 4);
-console.log(countOccurrences(["na", "na", "na", "na", "BATMAN"], "BATMAN"), 1);
-console.log(countOccurrences(["na", "na", "na", "na", "BATMAN"], "batman"), 0);
-console.log(countOccurrences(["na", "na", "na", "na", "BATMAN"], "a"), 0);
+console.log(x(["na", "na", "na", "na", "BATMAN"], "na"), 4);
+console.log(x(["na", "na", "na", "na", "BATMAN"], "BATMAN"), 1);
+console.log(x(["na", "na", "na", "na", "BATMAN"], "batman"), 0);
+console.log(x(["na", "na", "na", "na", "BATMAN"], "a"), 0);
